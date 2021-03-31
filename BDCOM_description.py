@@ -35,7 +35,9 @@ def config_device(device_ip, password, login, ports):
 # OLT ip
 device_ip = argv[1]
 
+
 if __name__ == '__main__':
+
 
     # billing connection
     endpoint = config.wsdl_url
