@@ -2,7 +2,6 @@ import config
 import telnetlib
 from suds.client import Client
 from sys import argv
-from netmiko import ConnectHandler, NetmikoTimeoutException, NetmikoAuthenticationException
 
 
 # for OLT configuration
